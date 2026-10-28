@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Local backups
+_backup_*/
+
+# Secrets and deploy credentials – never commit these
+.env
+.env.*
+*.pem
+*.key
+.ftpconfig
+sftp.json
+.vscode/sftp.json
+ftp-credentials*
